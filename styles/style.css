@@ -120,16 +120,15 @@
   font-weight: normal;
 }
 
-.two_columns__paragraph {
-  list-style: none;
+.two-columns__paragraph {
   margin: 0 0 30px;
 }
 
-.two_columns__paragraph:last-of-type {
+.two-columns__paragraph:last-of-type {
   margin-bottom: 0;
 }
 
-.two_columns__span-accent {
+.two-columns__span-accent {
   font-weight: bold;
 }
 
@@ -178,12 +177,12 @@
   list-style: none;
 }
 
-.table__cell_theme_light {
+.table__cell {
   width: 250px;
   margin: 60px 0 0;
 }
 
-.table__heading_theme_light {
+.table__heading {
   margin: 0;
   text-align: left;
   line-height: 1.15;
@@ -191,7 +190,7 @@
   font-weight: bold;
 }
 
-.table__text_theme_light {
+.table__text {
   margin: 20px 0 0;
   line-height: 1.2;
   font-size: 18px;
@@ -205,25 +204,17 @@
 }
 
 .table__heading_theme_dark {
-  margin: 0;
   color: white;
-  text-align: left;
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: bold;
 }
 
 .table__text_theme_dark {
-  margin: 20px 0 0;
   color: white;
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
 }
 
 .feynman {
   position: relative;
-  min-height: 890px;
+  min-height: 790px;
+  padding-top: 100px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -237,7 +228,8 @@
 
 .feynman__title {
   width: 648px;
-  margin: 100px auto 0;
+  margin: 0 auto;
+  text-align: center;
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
@@ -290,11 +282,15 @@
 }
 
 .kaufman__triangle {
+  width: 877px;
+  height: 877px;
+  background-image: url(../images/kaufman-triangle.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
   position: absolute;
   top: 0;
   right: -120px;
   z-index: 0;
-  height: 910px;
 }
 
 .footer {
@@ -313,29 +309,21 @@
   justify-content: space-between;
 }
 
-.footer__column_content_copyright {
-  flex-basis: 711px;
+.footer__column {
   display: flex;
   flex-direction: column;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
   justify-content: space-between;
 }
 
-.footer__author {
-  margin: 18px 0;
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
-}
-
 .footer__column_content_info {
-  display: flex;
-  flex-direction: column;
   justify-content: start;
 }
 
 .footer__column_content_social {
-  display: flex;
-  flex-direction: column;
   justify-content: start;
 }
 
@@ -362,7 +350,14 @@
   cursor: pointer;
 }
 
-.social_icon {
+.footer__author {
+  margin: 18px 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__social-icon {
   margin-right: 10px;
   width: 16px;
   height: 16px;
