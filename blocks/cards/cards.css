@@ -1,0 +1,13 @@
+.cards {
+  width: 920px;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-content: stretch;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.techniques__cards {
+  margin: 0 auto;
+}
