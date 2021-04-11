@@ -1,0 +1,14 @@
+.two-columns {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.description__two-columns {
+  margin: 0 auto;
+}
+
+.oakley__two-columns {
+  margin: 0 auto;
+}
