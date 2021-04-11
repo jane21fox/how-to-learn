@@ -7,10 +7,6 @@
   }
 }
 
-.header_rotation {
-  animation: rotation 20s linear infinite;
-}
-
-.kaufman_rotation {
+.rotation {
   animation: rotation 20s linear infinite;
 }
